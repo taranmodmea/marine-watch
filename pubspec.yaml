@@ -1,0 +1,21 @@
+name: marine_watch
+description: AI-verified citizen marine pollution reporting with Trust Score.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  geolocator: ^13.0.1
+  image: ^4.2.0
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
